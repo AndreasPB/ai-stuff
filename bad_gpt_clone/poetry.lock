@@ -81,6 +81,14 @@ extra = ["lxml (>=4.6)", "pygraphviz (>=1.10)", "pydot (>=1.4.2)", "sympy (>=1.1
 test = ["pytest (>=7.2)", "pytest-cov (>=4.0)", "codecov (>=2.1)"]
 
 [[package]]
+name = "numpy"
+version = "1.24.2"
+description = "Fundamental package for array computing in Python"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
 name = "nvidia-cublas-cu11"
 version = "11.10.3.66"
 description = "CUBLAS native runtime libraries"
@@ -238,7 +246,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "383fb79846d4c7ac1cd3b699650cdde9c5c0be071c0e96a59795d2d3ba4fd1af"
+content-hash = "c5e2ad316a0bc38e39303d4111e676d514a9f56be2c9ebb6fb1ab3f00c974865"
 
 [metadata.files]
 cmake = []
@@ -248,6 +256,7 @@ lit = []
 markupsafe = []
 mpmath = []
 networkx = []
+numpy = []
 nvidia-cublas-cu11 = []
 nvidia-cuda-cupti-cu11 = []
 nvidia-cuda-nvrtc-cu11 = []
